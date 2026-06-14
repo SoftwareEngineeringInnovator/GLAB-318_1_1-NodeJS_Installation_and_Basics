@@ -1,0 +1,25 @@
+{
+  "name": "glab-318_1_1-nodejs_installation_and_basics",
+  "version": "1.0.0",
+  "description": "Learning Node.js installation, npm, and basic server creation.",
+  "keywords": [
+    "nodejs",
+    "npm",
+    "learning"
+  ],
+  "homepage": "https://github.com/SoftwareEngineeringInnovator/GLAB-318_1_1-NodeJS_Installation_and_Basics#readme",
+  "bugs": {
+    "url": "https://github.com/SoftwareEngineeringInnovator/GLAB-318_1_1-NodeJS_Installation_and_Basics/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftwareEngineeringInnovator/GLAB-318_1_1-NodeJS_Installation_and_Basics.git"
+  },
+  "license": "ISC",
+  "author": "SoftwareEngineeringInnovator",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
