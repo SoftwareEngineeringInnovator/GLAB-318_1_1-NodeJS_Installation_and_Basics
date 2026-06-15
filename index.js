@@ -1,7 +1,18 @@
 // GLAB 318.1.1 - NodeJS Installation and Basics
+const http = require("http");
 
-console.log("Hello World!");
+const hostname = "127.0.0.1";
 
-console.log("I am a SoftwareEngineeringInnovator!");
+const port = 3000;
 
-console.log("I am learning Node.js.");
+const server = http.createServer((req, res) => {
+    res.statusCode = 200;
+    res.setHeader("Content-Type", "text/plain");
+    res.end("Hello World!\n" +
+    "I am a Software Engineering Innovator!\n" +
+    "I am learning Node.js.");
+});
+
+server.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
+});
